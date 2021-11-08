@@ -1,0 +1,22 @@
+.c-item {
+    img {
+        width: 85%;
+        height: 70%;
+
+        @include breakpoint( iphone ) {
+            width: 90%;
+            height: 50%;
+        }
+    }
+
+    &__text{
+        h3 {
+            text-align: center;
+            padding-top: 10px;
+        }
+
+        p {
+            font-size: 14px;
+        }
+    }
+}

@@ -1,0 +1,28 @@
+.p-header {
+    &__logo {
+        float: left;
+        //background-color: burlywood;
+        //padding: 0;
+
+        img {
+            width: 120px;
+            height: 40px;
+            margin-top: 10px;
+        }
+    }
+
+    &__nav {
+        float: right;
+    
+        a {
+            color: #383E45;
+            line-height: 60px;
+            padding: 0 15px;
+            font-size: 14px;
+        }
+    }
+    
+    &__clear {
+        clear: both;
+    }
+}

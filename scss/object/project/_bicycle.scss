@@ -1,0 +1,25 @@
+.p-bicycle {
+    max-width: 960px;
+    margin: 0 auto 100px auto;
+    text-align: center;
+
+    &__heading {
+        font-size: 32px;
+        border-bottom: 1px solid #383e45;
+        margin-top: 100px;
+        margin-bottom: 60px;
+        //text-align: center;
+        display: inline-block;//文字の長さだけborderを設定できる
+    }
+
+    &__contents {
+        display: flex;
+        justify-content: space-between;
+        
+        @include breakpoint( iphone ) {
+            flex-direction: column;
+        }
+    
+    }
+    
+}
